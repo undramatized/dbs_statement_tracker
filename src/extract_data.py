@@ -4,12 +4,14 @@ import json
 ExtractData
 
 This class initiates with:
-- filename of PDF file (excl .pdf extension)
+- filename of processed text file (excl .pdf extension)
 
 Class executes the following:
-- Retrieves a PDF file from the /statement_files folder
-- Converts PDF file into plaintext
-- Stores plaintext file in /processed_files/raw folder
+- Retrieves a text file from the /processed_files/raw folder
+- Extracts investment related data for NIKKO
+- Retrieves a PyPDF text file from the /processed_files/raw folder
+- Extracts investment amount from transactions -> Defaults to 100.00
+- Appends data to JSON file (investment_data.json) in /processed_files/compiled folder
 
 '''
 
