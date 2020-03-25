@@ -1,5 +1,3 @@
-import re
-import json
 '''
 ExtractData
 
@@ -15,6 +13,9 @@ Class executes the following:
 
 '''
 
+import re
+import json
+
 class ExtractData:
     TEXT_FILE_PATH = "../processed_files/raw/{filename}.txt"
     PYPDF_TEXT_FILE_PATH = "../processed_files/raw/{filename}_pypdf.txt"
@@ -24,7 +25,7 @@ class ExtractData:
         self.filename = filename
 
     def execute(self):
-        print("running python parser")
+        print("Running extract data for: ", self.filename)
         file_path = self.TEXT_FILE_PATH.format(filename=self.filename)
 
         file = open(file_path, 'r')
@@ -40,6 +41,7 @@ class ExtractData:
         print(investment_data)
 
         self.append_to_json(investment_data)
+        print("Completed extract data for: ", self.filename)
 
     def process_text(self, content):
         content = self.remove_newlines(content)
@@ -64,9 +66,10 @@ class ExtractData:
     def get_investment_data(self, content):
         extracted_data = []
         for index, line in enumerate(content):
-            if line[:5]=='NIKKO':
+            if line[:5].lower()=='nikko':
                 for i in range(10):
                     val = content[index+i].strip()
+                    # print(val)
                     if val.replace('.', '', 1).replace(',', '', 1).isdigit():
                         extracted_data.append(val)
                 break
@@ -115,4 +118,4 @@ class ExtractData:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    ExtractData("2020_01").execute()
+    ExtractData("2017_06").execute()

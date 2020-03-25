@@ -1,6 +1,3 @@
-from PyPDF2 import PdfFileReader
-import textract
-
 '''
 PDFtoText
 
@@ -14,6 +11,9 @@ Class executes the following:
 
 '''
 
+from PyPDF2 import PdfFileReader
+import textract
+
 class PDFtoText:
     PDF_PATH = "../statement_files/{filename}.pdf"
     TEXT_FILE_PATH = "../processed_files/raw/{filename}.txt"
@@ -22,7 +22,7 @@ class PDFtoText:
         self.filename = filename
 
     def execute(self):
-        print("running pdf to text")
+        print("Converting PDF to Text for: ", self.filename)
         file_path = self.PDF_PATH.format(filename=self.filename)
 
         pdf = open(file_path, 'rb')
@@ -37,6 +37,7 @@ class PDFtoText:
         self.append_text_to_file(decoded_text)
 
         pdf.close()
+        print("Completed PDF to Text for: ", self.filename)
 
     def get_page_count(self, pdf):
         pdf_reader = PdfFileReader(pdf)
@@ -49,7 +50,6 @@ class PDFtoText:
         pdf_reader = PdfFileReader(pdf)
         page = pdf_reader.getPage(page_number)
         text = page.extractText()
-        print("extracted text: ", text)
 
         return text
 

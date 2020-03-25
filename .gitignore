@@ -4,3 +4,6 @@
 /venv
 /statement_files
 /processed_files
+
+*.pyc
+*.pyo
