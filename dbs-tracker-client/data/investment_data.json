@@ -1,0 +1,387 @@
+[
+    {
+        "datetime": "2015_08",
+        "no_of_units": "88.00",
+        "current_price": "3.03000",
+        "total_value": "266.64",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2015_09",
+        "no_of_units": "121.00",
+        "current_price": "2.87000",
+        "total_value": "347.27",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2015_10",
+        "no_of_units": "152.00",
+        "current_price": "3.08000",
+        "total_value": "468.16",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2015_11",
+        "no_of_units": "184.00",
+        "current_price": "2.96000",
+        "total_value": "544.64",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2015_12",
+        "no_of_units": "217.00",
+        "current_price": "2.98000",
+        "total_value": "646.66",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_01",
+        "no_of_units": "252.00",
+        "current_price": "2.63000",
+        "total_value": "662.76",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_02",
+        "no_of_units": "289.00",
+        "current_price": "2.72000",
+        "total_value": "786.08",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_03",
+        "no_of_units": "323.00",
+        "current_price": "2.89000",
+        "total_value": "933.47",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_04",
+        "no_of_units": "356.00",
+        "current_price": "2.93000",
+        "total_value": "1,043.08",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_05",
+        "no_of_units": "391.00",
+        "current_price": "2.93000",
+        "total_value": "1,145.63",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_06",
+        "no_of_units": "425.00",
+        "current_price": "2.94000",
+        "total_value": "1,249.50",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_07",
+        "no_of_units": "458.00",
+        "current_price": "2.94000",
+        "total_value": "1,346.52",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_08",
+        "no_of_units": "491.00",
+        "current_price": "2.92000",
+        "total_value": "1,433.72",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_09",
+        "no_of_units": "524.00",
+        "current_price": "2.96000",
+        "total_value": "1,551.04",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_10",
+        "no_of_units": "557.00",
+        "current_price": "2.91000",
+        "total_value": "1,620.87",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_11",
+        "no_of_units": "590.00",
+        "current_price": "3.01000",
+        "total_value": "1,775.90",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2016_12",
+        "no_of_units": "622.00",
+        "current_price": "3.00000",
+        "total_value": "1,866.00",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_01",
+        "no_of_units": "654.00",
+        "current_price": "3.09000",
+        "total_value": "2,020.86",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_02",
+        "no_of_units": "685.00",
+        "current_price": "3.17000",
+        "total_value": "2,171.45",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_03",
+        "no_of_units": "715.00",
+        "current_price": "3.24000",
+        "total_value": "2,316.60",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_04",
+        "no_of_units": "745.00",
+        "current_price": "3.26000",
+        "total_value": "2,428.70",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_05",
+        "no_of_units": "774.00",
+        "current_price": "3.31000",
+        "total_value": "2,561.94",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_06",
+        "no_of_units": "803.000000",
+        "current_price": "3.33300",
+        "total_value": "2,676.39",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_07",
+        "no_of_units": "832.000000",
+        "current_price": "3.42050",
+        "total_value": "2,845.85",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_08",
+        "no_of_units": "860.000000",
+        "current_price": "3.40300",
+        "total_value": "2,926.58",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_09",
+        "no_of_units": "890.000000",
+        "current_price": "3.34130",
+        "total_value": "2,973.75",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_10",
+        "no_of_units": "919.000000",
+        "current_price": "3.50020",
+        "total_value": "3,216.68",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_11",
+        "no_of_units": "947.000000",
+        "current_price": "3.57190",
+        "total_value": "3,382.58",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2017_12",
+        "no_of_units": "974.000000",
+        "current_price": "3.53730",
+        "total_value": "3,445.33",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2018_01",
+        "no_of_units": "1,001.000000",
+        "current_price": "3.62640",
+        "total_value": "3,630.02",
+        "inv_amount": "100.00"
+    },
+    {
+        "datetime": "2018_02",
+        "no_of_units": "1,086.000000",
+        "current_price": "3.61980",
+        "total_value": "3,931.10",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_03",
+        "no_of_units": "1,168.000000",
+        "current_price": "3.51050",
+        "total_value": "4,100.26",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_04",
+        "no_of_units": "1,251.000000",
+        "current_price": "3.67680",
+        "total_value": "4,599.67",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_05",
+        "no_of_units": "1,332.000000",
+        "current_price": "3.57720",
+        "total_value": "4,764.83",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_06",
+        "no_of_units": "1,418.000000",
+        "current_price": "3.39470",
+        "total_value": "4,813.68",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_07",
+        "no_of_units": "1,507.000000",
+        "current_price": "3.39400",
+        "total_value": "5,114.75",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_08",
+        "no_of_units": "1,595.000000",
+        "current_price": "3.34600",
+        "total_value": "5,336.87",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_09",
+        "no_of_units": "1,686.000000",
+        "current_price": "3.36130",
+        "total_value": "5,667.15",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_10",
+        "no_of_units": "1,780.000000",
+        "current_price": "3.08090",
+        "total_value": "5,484.00",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_11",
+        "no_of_units": "1,873.000000",
+        "current_price": "3.22960",
+        "total_value": "6,049.04",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2018_12",
+        "no_of_units": "1,964.000000",
+        "current_price": "3.19480",
+        "total_value": "6,274.58",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_01",
+        "no_of_units": "2,054.000000",
+        "current_price": "3.24080",
+        "total_value": "6,656.60",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_02",
+        "no_of_units": "2,143.000000",
+        "current_price": "3.32000",
+        "total_value": "7,114.76",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_03",
+        "no_of_units": "2,233.000000",
+        "current_price": "3.27970",
+        "total_value": "7,323.57",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_04",
+        "no_of_units": "2,320.000000",
+        "current_price": "3.48940",
+        "total_value": "8,095.40",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_05",
+        "no_of_units": "2,408.000000",
+        "current_price": "3.24710",
+        "total_value": "7,819.01",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_06",
+        "no_of_units": "2,497.000000",
+        "current_price": "3.45700",
+        "total_value": "8,632.12",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_07",
+        "no_of_units": "2,583.000000",
+        "current_price": "3.38800",
+        "total_value": "8,751.20",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_08",
+        "no_of_units": "2,675.000000",
+        "current_price": "3.22040",
+        "total_value": "8,614.57",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_09",
+        "no_of_units": "2,764.000000",
+        "current_price": "3.23480",
+        "total_value": "8,940.98",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_10",
+        "no_of_units": "2,856.000000",
+        "current_price": "3.34930",
+        "total_value": "9,565.60",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_11",
+        "no_of_units": "2,944.000000",
+        "current_price": "3.31990",
+        "total_value": "9,773.78",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2019_12",
+        "no_of_units": "3,033.000000",
+        "current_price": "3.35510",
+        "total_value": "10,176.01",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2020_01",
+        "no_of_units": "3,122.000000",
+        "current_price": "3.22680",
+        "total_value": "10,074.06",
+        "inv_amount": "300.00"
+    },
+    {
+        "datetime": "2020_02",
+        "no_of_units": "3,212.000000",
+        "current_price": "3.18650",
+        "total_value": "10,235.03",
+        "inv_amount": "300.00"
+    }
+]
