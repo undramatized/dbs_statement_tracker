@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "@nivo/line": "^0.61.1",
+    "fibers": "^4.0.2",
     "next": "9.3.2",
     "node-fetch": "^2.6.0",
+    "node-sass": "^4.13.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sass": "^1.26.3"
   }
 }
