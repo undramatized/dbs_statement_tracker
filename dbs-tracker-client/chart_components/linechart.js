@@ -6,18 +6,24 @@ import { ResponsiveLine } from '@nivo/line'
 const MyResponsiveLine = ({ data }) => (
     <ResponsiveLine
         data={data}
-        margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
-        xScale={{ type: 'point' }}
+        margin={{ top: 50, right: 110, bottom: 100, left: 60 }}
+        xScale={{
+            type: 'time',
+            format: '%Y_%m',
+            precision: 'month',
+        }}
+        xFormat="time:%Y-%b"
         yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
         axisTop={null}
         axisRight={null}
         axisBottom={{
+            format: '%b %Y',
             orient: 'bottom',
-            tickSize: 5,
-            tickPadding: 5,
-            tickRotation: 0,
-            legend: 'transportation',
-            legendOffset: 36,
+            tickSize: 10,
+            tickPadding: 10,
+            tickRotation: -45,
+            legend: 'time',
+            legendOffset: 75,
             legendPosition: 'middle'
         }}
         axisLeft={{
@@ -25,7 +31,7 @@ const MyResponsiveLine = ({ data }) => (
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'count',
+            legend: 'price',
             legendOffset: -40,
             legendPosition: 'middle'
         }}
@@ -63,6 +69,11 @@ const MyResponsiveLine = ({ data }) => (
                 ]
             }
         ]}
+        motion={{
+          animate: true,
+          motionStiffness: 300,
+          motionDamping: 30
+        }}
     />
 )
 
