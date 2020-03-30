@@ -38,10 +38,10 @@ const MyResponsiveLine = ({ data }) => (
             legendOffset: -60,
             legendPosition: 'middle'
         }}
-        colors={{ scheme: 'nivo' }}
-        pointSize={10}
+        colors={{ scheme: 'set2' }}
+        pointSize={3}
         pointColor={{ theme: 'background' }}
-        pointBorderWidth={2}
+        pointBorderWidth={4}
         pointBorderColor={{ from: 'serieColor' }}
         pointLabel="y"
         pointLabelYOffset={-12}
@@ -51,11 +51,11 @@ const MyResponsiveLine = ({ data }) => (
                 anchor: 'top-right',
                 direction: 'column',
                 justify: false,
-                translateX: 100,
+                translateX: 120,
                 translateY: 0,
                 itemsSpacing: 0,
                 itemDirection: 'left-to-right',
-                itemWidth: 80,
+                itemWidth: 110,
                 itemHeight: 20,
                 itemOpacity: 0.75,
                 symbolSize: 12,
