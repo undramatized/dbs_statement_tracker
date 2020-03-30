@@ -6,14 +6,17 @@ import { ResponsiveLine } from '@nivo/line'
 const MyResponsiveLine = ({ data }) => (
     <ResponsiveLine
         data={data}
-        margin={{ top: 50, right: 110, bottom: 100, left: 60 }}
+        margin={{ top: 50, right: 130, bottom: 100, left: 70 }}
         xScale={{
             type: 'time',
             format: '%Y_%m',
             precision: 'month',
         }}
         xFormat="time:%Y-%b"
-        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
+        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: false, reverse: false }}
+        yFormat={value =>
+            `S$ ${parseFloat(Number(value)).toFixed(2)}`
+        }
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -29,10 +32,10 @@ const MyResponsiveLine = ({ data }) => (
         axisLeft={{
             orient: 'left',
             tickSize: 5,
-            tickPadding: 5,
+            tickPadding: 10,
             tickRotation: 0,
             legend: 'price',
-            legendOffset: -40,
+            legendOffset: -60,
             legendPosition: 'middle'
         }}
         colors={{ scheme: 'nivo' }}
@@ -42,10 +45,10 @@ const MyResponsiveLine = ({ data }) => (
         pointBorderColor={{ from: 'serieColor' }}
         pointLabel="y"
         pointLabelYOffset={-12}
-        useMesh={true}
+        enableSlices='x'
         legends={[
             {
-                anchor: 'bottom-right',
+                anchor: 'top-right',
                 direction: 'column',
                 justify: false,
                 translateX: 100,
@@ -73,6 +76,10 @@ const MyResponsiveLine = ({ data }) => (
           animate: true,
           motionStiffness: 300,
           motionDamping: 30
+        }}
+        interactivity={{
+          enableSlices: 'x',
+          crosshairType: 'bottom'
         }}
     />
 )
