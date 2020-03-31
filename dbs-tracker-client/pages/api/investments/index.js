@@ -10,7 +10,7 @@ function getPriceData(data) {
 }
 
 function getInvestedAmountData(data) {
-  let initial = 0
+  let initial = 100
   let investedAmt = data.map(x => {
     initial = initial + parseInt(x.inv_amount)
     let investedAmtDetail = {

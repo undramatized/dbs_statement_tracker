@@ -8,7 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.7.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@nivo/line": "^0.61.1",
+    "emotion-theming": "^10.0.27",
     "fibers": "^4.0.2",
     "next": "9.3.2",
     "node-fetch": "^2.6.0",
