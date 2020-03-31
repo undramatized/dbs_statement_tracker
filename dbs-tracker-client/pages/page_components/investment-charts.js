@@ -1,7 +1,7 @@
 import MyResponsiveLine from '../../chart_components/linechart';
 import { Box } from "@chakra-ui/core";
 
-const Investments = ({ data }) => (
+const InvestmentCharts = ({ data }) => (
   <Box w='100%'>
     <Box h='40vh'>
       <h2>Price of asset</h2>
@@ -14,4 +14,4 @@ const Investments = ({ data }) => (
   </Box>
 )
 
-export default Investments
+export default InvestmentCharts

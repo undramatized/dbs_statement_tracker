@@ -5,7 +5,7 @@ import { ThemeProvider, ColorModeProvider, CSSReset } from "@chakra-ui/core";
 export default function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider>
-      <ColorModeProvider>
+      <ColorModeProvider value='dark'>
         <CSSReset />
         <Component {...pageProps} />
       </ColorModeProvider>
