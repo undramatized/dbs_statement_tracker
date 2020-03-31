@@ -18,10 +18,11 @@ const Home = ({ invdata }) => {
         </Box>
       </Grid>
       <Divider />
-      <Grid templateColumns='5fr 20px 2fr' mt={5}>
-        <Investments data={invdata} />
-        <Divider orientation='vertical'/>
-        <Box>
+      <Grid templateColumns='repeat(4, 1fr)' mt={5}>
+        <Box gridColumn='1 / 4'>
+          <Investments data={invdata} />
+        </Box>
+        <Box gridColumn='4 / 5' borderLeft='1px solid rgba(255,255,255,0.16)' p={5} h='100%'>
           <Text>Hello Details</Text>
         </Box>
       </Grid>
