@@ -4,6 +4,7 @@
 /venv
 /statement_files
 /processed_files
+/dbs-tracker-client/data/investment_data.json
 
 *.pyc
 *.pyo
