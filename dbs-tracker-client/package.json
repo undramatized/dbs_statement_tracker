@@ -14,7 +14,7 @@
     "@nivo/line": "^0.61.1",
     "emotion-theming": "^10.0.27",
     "fibers": "^4.0.2",
-    "next": "9.3.2",
+    "next": "11.1.0",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
     "react": "16.13.1",
